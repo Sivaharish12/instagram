@@ -1,0 +1,99 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "user": {
+          "id": 101,
+          "username": "john_doe",
+          "profilePic": "https://picsum.photos/id/237/32/32" 
+        },
+        "image": "https://picsum.photos/id/1025/600/600", 
+        "caption": "Enjoying a sunny day! #nature #sun",
+        "timestamp": "2025-03-14T10:30:00Z",
+        "likes": [
+          {
+            "userId": 102,
+            "username": "jane_smith",
+            "timestamp": "2025-03-14T10:32:00Z"
+          },
+          {
+            "userId": 103,
+            "username": "mike_89",
+            "timestamp": "2025-03-14T10:35:00Z"
+          }
+        ],
+        "comments": [
+          {
+            "id": 201,
+            "userId": 102,
+            "username": "jane_smith",
+            "text": "Looks amazing!",
+            "timestamp": "2025-03-14T10:33:00Z"
+          },
+          {
+            "id": 202,
+            "userId": 104,
+            "username": "sarah_connor",
+            "text": "Where is this?",
+            "timestamp": "2025-03-14T10:40:00Z"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "user": {
+          "id": 102,
+          "username": "jane_smith",
+          "profilePic": "https://picsum.photos/id/102/32/32" 
+        },
+        "image": "https://picsum.photos/id/1040/600/600", 
+        "caption": "Coffee time! #morning #coffee",
+        "timestamp": "2025-03-15T08:15:00Z",
+        "likes": [
+          {
+            "userId": 101,
+            "username": "john_doe",
+            "timestamp": "2025-03-15T08:20:00Z"
+          }
+        ],
+        "comments": [
+          {
+            "id": 203,
+            "userId": 103,
+            "username": "mike_89",
+            "text": "That looks delicious!",
+            "timestamp": "2025-03-15T08:25:00Z"
+          }
+        ]
+      }
+    ],
+    "stories": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profilePic": "https://picsum.photos/id/237/64/64"
+      },
+      "timestamp": "2025-03-15T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "jane_smith",
+        "profilePic": "https://picsum.photos/id/102/64/64"
+      },
+      "timestamp": "2025-03-15T10:00:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "mike_89",
+        "profilePic": "https://picsum.photos/id/128/64/64"
+      },
+      "timestamp": "2025-03-15T11:00:00Z"
+    }
+  ]
+  }
