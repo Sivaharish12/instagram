@@ -1,3 +1,7 @@
+Description:
+
+This is a sample code project to learn the basic concepts of react 
+
 npx json-server --watch data/db.json --port 3000
 
 1) Run the above command to trigger the temproary json db which will moch the data which is given by the actual db
